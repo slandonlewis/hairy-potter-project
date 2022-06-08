@@ -1,7 +1,7 @@
 const primaryKey = 1
+let currentPotteryID = 0
 
 export const makePottery = (potteryShape, potteryWeight, potteryHeight) => {
-    let currentPotteryID = 0
     currentPotteryID ++
     const newPottery = {
         id: currentPotteryID,
